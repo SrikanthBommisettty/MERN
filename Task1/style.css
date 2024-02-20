@@ -1,0 +1,322 @@
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    width: 150%;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 10px;
+    position: relative;
+    right: 170px;
+    font-size: 20px;
+}
+.icon{
+    display: none;
+}
+.header{
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 10px 0px;
+    background-image: url(./images/display.png);
+    color: white;
+    padding: 25px;
+}
+.header h2{
+    font-size: 40px;
+}
+.header h4{
+    font-size: 20px;
+}
+
+.btn-play{
+    width: 150px;
+    background-color: rgba(250, 74, 12, 1);
+    border-radius: 30px;
+    padding: 10px 16px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.btn-app{
+    width: 150px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 10px 16px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.mobile-img{
+    display: flex;
+    position: relative;
+    bottom: 240px;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 0px;
+}
+@media(max-width:992px) {
+    .list{
+        display: none;
+    }
+    .img{
+        width: 50%;
+    }
+    .icon{
+        display: block;
+    }
+    .header{
+        background-image: none;
+        color: black;
+    }
+    .header h4{
+        color: gray;
+    }
+    .header  h3{
+        color: gray;
+    }
+   
+    .btn-app{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        font-weight: 700;
+        color: rgba(250, 74, 12, 1);
+        border: 1px solid rgba(250, 74, 12, 1);
+    }
+    .mobile-img{
+        margin-top: 80px;
+    }
+}
+hr{
+    position: relative;
+    width: 884px;
+    left: 278px;
+    bottom: 220px;
+    border: 3px;
+}
+
+.cards{
+    margin-top: 0px;
+    position: relative;
+    bottom: 200px;
+    height: 60%;
+}
+.cards h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.create-account{
+    display: flex;
+    position: relative;
+}
+.log-img{
+    position: relative;
+    bottom: 50px; 
+    left: 100px;
+    margin-right: 80px;  
+}
+.text{
+    text-align: left;
+    margin: 20px;
+    position: relative;
+    top: 200px;
+}
+.text h3{
+    font-size: 15px;
+    color: rgba(250, 74, 12, 1);
+    margin-bottom: 20px;
+}
+.text h4{
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.food{
+    display: flex;
+    position: relative;
+    left: 180px;
+    bottom: 350px;
+}
+.food-img{
+    margin-left: 140px;
+}
+#cards{
+    position: relative;
+    bottom: 450px;
+}
+.app-now{
+    background-image: url(./images/bg.png);
+    color: white;
+    position: relative;
+    bottom: 440px;
+    text-align: center;
+}
+.app-now h2{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.button{
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: rgba(250, 74, 12, 1);
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+.btn2{
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.disc{
+    display: none;
+}
+.btn3{
+    display: none;
+    
+}
+/* #btn3{
+    color: white;
+    background-color: rgba(250, 74, 12, 1);
+
+} */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 400px;
+}
+.footer-logo{
+    width: 15%;
+    position: relative;
+    left: 100px;
+}
+.icon-bar{
+    width: 20%;
+    position: relative;
+    top: 20px;
+}
+.insta{
+    position: relative;
+    right: 30px;
+}
+.footer h5{
+    font-size: 10px;
+    position: relative;
+    right: 200px;
+    top: 40px;
+}
+.footer h4{
+    display: none;
+}
+@media(max-width:992px){
+    .create-account{
+        flex-direction: column-reverse;
+    }
+    .text{
+        top: 50px;
+        text-align: center;
+    }
+    .food{
+        flex-direction: column;
+        text-align: center;
+        left: 20px;
+    }
+    hr{
+        left: 20px;
+    }
+    .app-now{
+        background-image: none;
+        background-color: rgba(37, 43, 66, 1);
+    }
+    .app-now h2{
+        width: 50%;
+        margin: auto;
+        font-size: 40px;
+    }
+    .disc{
+        display: block;
+        width: 50%;
+        margin: auto;
+        color: white;
+        position: relative;
+        color: rgb(152, 150, 150);
+    }
+    .head4{
+        display: none;
+    }
+    .btn3{
+        display: block;
+    }
+    #btn3{
+        display:inline-flex;
+        flex-direction: row;
+        position: relative;
+        margin: auto;
+
+    }
+    .btn1{
+        display: none;
+    }
+    .btn2{
+        display: none;
+    }
+    .buy-btn{
+        color: white;
+        background-color: rgba(250, 74, 12, 1);
+        padding: 10px 20px;
+        border-radius: 9px;
+        border: none;
+    }
+    .try-btn{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 10px 30px;
+        border-radius: 9px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .icon-bar{
+        margin: auto;
+        width: 100%;
+        left: 30%;
+    }
+    .footer h5{
+        display: none;
+    }
+    .footer h4{
+        display: block;
+        position: relative;
+        top: 60px;
+        margin: auto;
+        right: 160px;
+        width: 100%;
+        color: rgb(115, 112, 112);
+        font-size: 15px;
+    }
+    
+
+}
